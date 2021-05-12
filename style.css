@@ -23,7 +23,6 @@ body {
     display: table;
     width: 100%;
     height: 100%;
-    z-index: 9;
 }
 
 
@@ -33,7 +32,7 @@ h1 {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 300;
-    
+
 }
 
 #name {
@@ -82,29 +81,29 @@ p {
 
 
 .menu {
-   
-    list-style: none;
-    font-family: sans-serif;
-    position:absolute;
-    top:10px;
+
+    list-style:none;
+    font-family: 'Anton', sans-serif;
+    position: fixed;
+    top: 30px;
     right: 30px;
-    z-index: 10;
-    cursor: pointer;
+    z-index: 1;
+    cursor:none;
 }
 
 .links {
-    float: left;
+    float:left;
     color: #fff;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-family:fantasy;
-    font-size: 20px
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 }
 
 
 
 .links:hover {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
 }
